@@ -16,4 +16,6 @@ btn.addEventListener('click', function getLight () {
     lampOn.classList.remove('d-none');
     lampOn.classList.add('d-block');
 
+    btn.innerText = 'Spegni';
+
 })
