@@ -4,7 +4,11 @@ const lampOn = document.getElementById('lampOn');
 console.log(lampOff);
 console.log(lampOn);
 
-function getLight () {
+const btn = document.querySelector('button');
+console.log(btn);
+
+
+btn.addEventListener('click', function getLight () {
 
     lampOff.classList.remove('d-block')
     lampOff.classList.add('d-none');
@@ -12,4 +16,4 @@ function getLight () {
     lampOn.classList.remove('d-none');
     lampOn.classList.add('d-block');
 
-}
+})
